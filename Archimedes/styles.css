@@ -1,0 +1,233 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.archistyle-serif{font-family:serif}.archistyle-sans-serif{font-family:sans-serif}.archistyle-cursive{font-family:cursive}.archistyle-monospace{font-family:monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.archistyle-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.archistyle-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.archistyle-table,.archistyle-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.archistyle-table-all{border:1px solid #ccc}
+.archistyle-bordered tr,.archistyle-table-all tr{border-bottom:1px solid #ddd}.archistyle-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.archistyle-table-all tr:nth-child(odd){background-color:#fff}.archistyle-table-all tr:nth-child(even){background-color:#f1f1f1}
+.archistyle-hoverable tbody tr:hover,.archistyle-ul.archistyle-hoverable li:hover{background-color:#ccc}.archistyle-centered tr th,.archistyle-centered tr td{text-align:center}
+.archistyle-table td,.archistyle-table th,.archistyle-table-all td,.archistyle-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.archistyle-table th:first-child,.archistyle-table td:first-child,.archistyle-table-all th:first-child,.archistyle-table-all td:first-child{padding-left:16px}
+.archistyle-btn,.archistyle-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.archistyle-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.archistyle-btn,.archistyle-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.archistyle-disabled,.archistyle-btn:disabled,.archistyle-button:disabled{cursor:not-allowed;opacity:0.3}.archistyle-disabled *,:disabled *{pointer-events:none}
+.archistyle-btn.archistyle-disabled:hover,.archistyle-btn:disabled:hover{box-shadow:none}
+.archistyle-badge,.archistyle-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.archistyle-badge{border-radius:50%}
+.archistyle-ul{list-style-type:none;padding:0;margin:0}.archistyle-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.archistyle-ul li:last-child{border-bottom:none}
+.archistyle-tooltip,.archistyle-display-container{position:relative}.archistyle-tooltip .archistyle-text{display:none}.archistyle-tooltip:hover .archistyle-text{display:inline-block}
+.archistyle-ripple:active{opacity:0.5}.archistyle-ripple{transition:opacity 0s}
+.archistyle-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.archistyle-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.archistyle-dropdown-click,.archistyle-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.archistyle-dropdown-hover:hover .archistyle-dropdown-content{display:block}
+.archistyle-dropdown-hover:first-child,.archistyle-dropdown-click:hover{background-color:#ccc;color:#000}
+.archistyle-dropdown-hover:hover > .archistyle-button:first-child,.archistyle-dropdown-click:hover > .archistyle-button:first-child{background-color:#ccc;color:#000}
+.archistyle-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.archistyle-check,.archistyle-radio{width:24px;height:24px;position:relative;top:6px}
+.archistyle-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.archistyle-bar-block .archistyle-dropdown-hover,.archistyle-bar-block .archistyle-dropdown-click{width:100%}
+.archistyle-bar-block .archistyle-dropdown-hover .archistyle-dropdown-content,.archistyle-bar-block .archistyle-dropdown-click .archistyle-dropdown-content{min-width:100%}
+.archistyle-bar-block .archistyle-dropdown-hover .archistyle-button,.archistyle-bar-block .archistyle-dropdown-click .archistyle-button{width:100%;text-align:left;padding:8px 16px}
+.archistyle-main,#main{transition:margin-left .4s}
+.archistyle-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.archistyle-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.archistyle-bar{width:100%;overflow:hidden}.archistyle-center .archistyle-bar{display:inline-block;width:auto}
+.archistyle-bar .archistyle-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.archistyle-bar .archistyle-dropdown-hover,.archistyle-bar .archistyle-dropdown-click{position:static;float:left}
+.w-bar .w-button{white-space:normal}
+.archistyle-bar-block .archistyle-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.archistyle-bar-block.archistyle-center .archistyle-bar-item{text-align:center}.archistyle-block{display:block;width:100%}
+.archistyle-responsive{display:block;overflow-x:auto}
+.archistyle-container:after,.archistyle-container:before,.archistyle-panel:after,.archistyle-panel:before,.archistyle-row:after,.archistyle-row:before,.archistyle-row-padding:after,.archistyle-row-padding:before,
+.archistyle-cell-row:before,.archistyle-cell-row:after,.archistyle-clear:after,.archistyle-clear:before,.archistyle-bar:before,.archistyle-bar:after{content:"";display:table;clear:both}
+.archistyle-col,.archistyle-half,.archistyle-third,.archistyle-twothird,.archistyle-threequarter,.archistyle-quarter{float:left;width:100%}
+.archistyle-col.s1{width:8.33333%}.archistyle-col.s2{width:16.66666%}.archistyle-col.s3{width:24.99999%}.archistyle-col.s4{width:33.33333%}
+.archistyle-col.s5{width:41.66666%}.archistyle-col.s6{width:49.99999%}.archistyle-col.s7{width:58.33333%}.archistyle-col.s8{width:66.66666%}
+.archistyle-col.s9{width:74.99999%}.archistyle-col.s10{width:83.33333%}.archistyle-col.s11{width:91.66666%}.archistyle-col.s12{width:99.99999%}
+@media (min-width:601px){.archistyle-col.m1{width:8.33333%}.archistyle-col.m2{width:16.66666%}.archistyle-col.m3,.archistyle-quarter{width:24.99999%}.archistyle-col.m4,.archistyle-third{width:33.33333%}
+.archistyle-col.m5{width:41.66666%}.archistyle-col.m6,.archistyle-half{width:49.99999%}.archistyle-col.m7{width:58.33333%}.archistyle-col.m8,.archistyle-twothird{width:66.66666%}
+.archistyle-col.m9,.archistyle-threequarter{width:74.99999%}.archistyle-col.m10{width:83.33333%}.archistyle-col.m11{width:91.66666%}.archistyle-col.m12{width:99.99999%}}
+@media (min-width:993px){.archistyle-col.l1{width:8.33333%}.archistyle-col.l2{width:16.66666%}.archistyle-col.l3{width:24.99999%}.archistyle-col.l4{width:33.33333%}
+.archistyle-col.l5{width:41.66666%}.archistyle-col.l6{width:49.99999%}.archistyle-col.l7{width:58.33333%}.archistyle-col.l8{width:66.66666%}
+.archistyle-col.l9{width:74.99999%}.archistyle-col.l10{width:83.33333%}.archistyle-col.l11{width:91.66666%}.archistyle-col.l12{width:99.99999%}}
+.archistyle-rest{overflow:hidden}.archistyle-stretch{margin-left:-16px;margin-right:-16px}
+.archistyle-content,.archistyle-auto{margin-left:auto;margin-right:auto}.archistyle-content{max-width:980px}.archistyle-auto{max-width:1140px}
+.archistyle-cell-row{display:table;width:100%}.archistyle-cell{display:table-cell}
+.archistyle-cell-top{vertical-align:top}.archistyle-cell-middle{vertical-align:middle}.archistyle-cell-bottom{vertical-align:bottom}
+.archistyle-hide{display:none!important}.archistyle-show-block,.archistyle-show{display:block!important}.archistyle-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.archistyle-auto{max-width:95%}}
+@media (max-width:600px){.archistyle-modal-content{margin:0 10px;width:auto!important}.archistyle-modal{padding-top:30px}
+.archistyle-dropdown-hover.archistyle-mobile .archistyle-dropdown-content,.archistyle-dropdown-click.archistyle-mobile .archistyle-dropdown-content{position:relative}	
+.archistyle-hide-small{display:none!important}.archistyle-mobile{display:block;width:100%!important}.archistyle-bar-item.archistyle-mobile,.archistyle-dropdown-hover.archistyle-mobile,.archistyle-dropdown-click.archistyle-mobile{text-align:center}
+.archistyle-dropdown-hover.archistyle-mobile,.archistyle-dropdown-hover.archistyle-mobile .archistyle-btn,.archistyle-dropdown-hover.archistyle-mobile .archistyle-button,.archistyle-dropdown-click.archistyle-mobile,.archistyle-dropdown-click.archistyle-mobile .archistyle-btn,.archistyle-dropdown-click.archistyle-mobile .archistyle-button{width:100%}}
+@media (max-width:768px){.archistyle-modal-content{width:500px}.archistyle-modal{padding-top:50px}}
+@media (min-width:993px){.archistyle-modal-content{width:900px}.archistyle-hide-large{display:none!important}.archistyle-sidebar.archistyle-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.archistyle-hide-medium{display:none!important}}
+@media (max-width:992px){.archistyle-sidebar.archistyle-collapse{display:none}.archistyle-main{margin-left:0!important;margin-right:0!important}.archistyle-auto{max-width:100%}}
+.archistyle-top,.archistyle-bottom{position:fixed;width:100%;z-index:1}.archistyle-top{top:0}.archistyle-bottom{bottom:0}
+.archistyle-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.archistyle-display-topleft{position:absolute;left:0;top:0}.archistyle-display-topright{position:absolute;right:0;top:0}
+.archistyle-display-bottomleft{position:absolute;left:0;bottom:0}.archistyle-display-bottomright{position:absolute;right:0;bottom:0}
+.archistyle-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.archistyle-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.archistyle-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.archistyle-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.archistyle-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.archistyle-display-container:hover .archistyle-display-hover{display:block}.archistyle-display-container:hover span.archistyle-display-hover{display:inline-block}.archistyle-display-hover{display:none}
+.archistyle-display-position{position:absolute}
+.archistyle-circle{border-radius:50%}
+.archistyle-round-small{border-radius:2px}.archistyle-round,.archistyle-round-medium{border-radius:4px}.archistyle-round-large{border-radius:8px}.archistyle-round-xlarge{border-radius:16px}.archistyle-round-xxlarge{border-radius:32px}
+.archistyle-row-padding,.archistyle-row-padding>.archistyle-half,.archistyle-row-padding>.archistyle-third,.archistyle-row-padding>.archistyle-twothird,.archistyle-row-padding>.archistyle-threequarter,.archistyle-row-padding>.archistyle-quarter,.archistyle-row-padding>.archistyle-col{padding:0 8px}
+.archistyle-container,.archistyle-panel{padding:0.01em 16px}.archistyle-panel{margin-top:16px;margin-bottom:16px}
+.archistyle-code,.archistyle-codespan{font-family:Consolas,"courier new";font-size:16px}
+.archistyle-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.archistyle-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.archistyle-card,.archistyle-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.archistyle-card-4,.archistyle-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.archistyle-spin{animation:archistyle-spin 2s infinite linear}@keyframes archistyle-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.archistyle-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.archistyle-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.archistyle-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.archistyle-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.archistyle-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.archistyle-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.archistyle-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.archistyle-animate-input{transition:width 0.4s ease-in-out}.archistyle-animate-input:focus{width:100%!important}
+.archistyle-opacity,.archistyle-hover-opacity:hover{opacity:0.60}.archistyle-opacity-off,.archistyle-hover-opacity-off:hover{opacity:1}
+.archistyle-opacity-max{opacity:0.25}.archistyle-opacity-min{opacity:0.75}
+.archistyle-greyscale-max,.archistyle-grayscale-max,.archistyle-hover-greyscale:hover,.archistyle-hover-grayscale:hover{filter:grayscale(100%)}
+.archistyle-greyscale,.archistyle-grayscale{filter:grayscale(75%)}.archistyle-greyscale-min,.archistyle-grayscale-min{filter:grayscale(50%)}
+.archistyle-sepia{filter:sepia(75%)}.archistyle-sepia-max,.archistyle-hover-sepia:hover{filter:sepia(100%)}.archistyle-sepia-min{filter:sepia(50%)}
+.archistyle-tiny{font-size:10px!important}.archistyle-small{font-size:12px!important}.archistyle-medium{font-size:15px!important}.archistyle-large{font-size:18px!important}
+.archistyle-xlarge{font-size:24px!important}.archistyle-xxlarge{font-size:36px!important}.archistyle-xxxlarge{font-size:48px!important}.archistyle-jumbo{font-size:64px!important}
+.archistyle-left-align{text-align:left!important}.archistyle-right-align{text-align:right!important}.archistyle-justify{text-align:justify!important}.archistyle-center{text-align:center!important}
+.archistyle-border-0{border:0!important}.archistyle-border{border:1px solid #ccc!important}
+.archistyle-border-top{border-top:1px solid #ccc!important}.archistyle-border-bottom{border-bottom:1px solid #ccc!important}
+.archistyle-border-left{border-left:1px solid #ccc!important}.archistyle-border-right{border-right:1px solid #ccc!important}
+.archistyle-topbar{border-top:6px solid #ccc!important}.archistyle-bottombar{border-bottom:6px solid #ccc!important}
+.archistyle-leftbar{border-left:6px solid #ccc!important}.archistyle-rightbar{border-right:6px solid #ccc!important}
+.archistyle-section,.archistyle-code{margin-top:16px!important;margin-bottom:16px!important}
+.archistyle-margin{margin:16px!important}.archistyle-margin-top{margin-top:16px!important}.archistyle-margin-bottom{margin-bottom:16px!important}
+.archistyle-margin-left{margin-left:16px!important}.archistyle-margin-right{margin-right:16px!important}
+.archistyle-padding-small{padding:4px 8px!important}.archistyle-padding{padding:8px 16px!important}.archistyle-padding-large{padding:12px 24px!important}
+.archistyle-padding-16{padding-top:16px!important;padding-bottom:16px!important}.archistyle-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.archistyle-padding-32{padding-top:32px!important;padding-bottom:32px!important}.archistyle-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.archistyle-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.archistyle-padding-top-64{padding-top:64px!important}.archistyle-padding-top-48{padding-top:48px!important}
+.archistyle-padding-top-32{padding-top:32px!important}.archistyle-padding-top-24{padding-top:24px!important}
+.archistyle-left{float:left!important}.archistyle-right{float:right!important}
+.archistyle-button:hover{color:#000!important;background-color:#ccc!important}
+.archistyle-transparent,.archistyle-hover-none:hover{background-color:transparent!important}
+.archistyle-hover-none:hover{box-shadow:none!important}
+/* Colors */
+.archistyle-amber,.archistyle-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.archistyle-aqua,.archistyle-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.archistyle-blue,.archistyle-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.archistyle-light-blue,.archistyle-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.archistyle-brown,.archistyle-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.archistyle-cyan,.archistyle-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.archistyle-blue-grey,.archistyle-hover-blue-grey:hover,.archistyle-blue-gray,.archistyle-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.archistyle-green,.archistyle-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.archistyle-light-green,.archistyle-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.archistyle-indigo,.archistyle-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.archistyle-khaki,.archistyle-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.archistyle-lime,.archistyle-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.archistyle-orange,.archistyle-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.archistyle-deep-orange,.archistyle-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.archistyle-pink,.archistyle-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.archistyle-purple,.archistyle-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.archistyle-deep-purple,.archistyle-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.archistyle-red,.archistyle-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.archistyle-sand,.archistyle-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.archistyle-teal,.archistyle-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.archistyle-yellow,.archistyle-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.archistyle-white,.archistyle-hover-white:hover{color:#000!important;background-color:#fff!important}
+.archistyle-black,.archistyle-hover-black:hover{color:#fff!important;background-color:#000!important}
+.archistyle-grey,.archistyle-hover-grey:hover,.archistyle-gray,.archistyle-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.archistyle-light-grey,.archistyle-hover-light-grey:hover,.archistyle-light-gray,.archistyle-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.archistyle-dark-grey,.archistyle-hover-dark-grey:hover,.archistyle-dark-gray,.archistyle-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.archistyle-pale-red,.archistyle-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.archistyle-pale-green,.archistyle-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.archistyle-pale-yellow,.archistyle-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.archistyle-pale-blue,.archistyle-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.archistyle-text-amber,.archistyle-hover-text-amber:hover{color:#ffc107!important}
+.archistyle-text-aqua,.archistyle-hover-text-aqua:hover{color:#00ffff!important}
+.archistyle-text-blue,.archistyle-hover-text-blue:hover{color:#2196F3!important}
+.archistyle-text-light-blue,.archistyle-hover-text-light-blue:hover{color:#87CEEB!important}
+.archistyle-text-brown,.archistyle-hover-text-brown:hover{color:#795548!important}
+.archistyle-text-cyan,.archistyle-hover-text-cyan:hover{color:#00bcd4!important}
+.archistyle-text-blue-grey,.archistyle-hover-text-blue-grey:hover,.archistyle-text-blue-gray,.archistyle-hover-text-blue-gray:hover{color:#607d8b!important}
+.archistyle-text-green,.archistyle-hover-text-green:hover{color:#4CAF50!important}
+.archistyle-text-light-green,.archistyle-hover-text-light-green:hover{color:#8bc34a!important}
+.archistyle-text-indigo,.archistyle-hover-text-indigo:hover{color:#3f51b5!important}
+.archistyle-text-khaki,.archistyle-hover-text-khaki:hover{color:#b4aa50!important}
+.archistyle-text-lime,.archistyle-hover-text-lime:hover{color:#cddc39!important}
+.archistyle-text-orange,.archistyle-hover-text-orange:hover{color:#ff9800!important}
+.archistyle-text-deep-orange,.archistyle-hover-text-deep-orange:hover{color:#ff5722!important}
+.archistyle-text-pink,.archistyle-hover-text-pink:hover{color:#e91e63!important}
+.archistyle-text-purple,.archistyle-hover-text-purple:hover{color:#9c27b0!important}
+.archistyle-text-deep-purple,.archistyle-hover-text-deep-purple:hover{color:#673ab7!important}
+.archistyle-text-red,.archistyle-hover-text-red:hover{color:#f44336!important}
+.archistyle-text-sand,.archistyle-hover-text-sand:hover{color:#fdf5e6!important}
+.archistyle-text-teal,.archistyle-hover-text-teal:hover{color:#009688!important}
+.archistyle-text-yellow,.archistyle-hover-text-yellow:hover{color:#d2be0e!important}
+.archistyle-text-white,.archistyle-hover-text-white:hover{color:#fff!important}
+.archistyle-text-black,.archistyle-hover-text-black:hover{color:#000!important}
+.archistyle-text-grey,.archistyle-hover-text-grey:hover,.archistyle-text-gray,.archistyle-hover-text-gray:hover{color:#757575!important}
+.archistyle-text-light-grey,.archistyle-hover-text-light-grey:hover,.archistyle-text-light-gray,.archistyle-hover-text-light-gray:hover{color:#f1f1f1!important}
+.archistyle-text-dark-grey,.archistyle-hover-text-dark-grey:hover,.archistyle-text-dark-gray,.archistyle-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.archistyle-border-amber,.archistyle-hover-border-amber:hover{border-color:#ffc107!important}
+.archistyle-border-aqua,.archistyle-hover-border-aqua:hover{border-color:#00ffff!important}
+.archistyle-border-blue,.archistyle-hover-border-blue:hover{border-color:#2196F3!important}
+.archistyle-border-light-blue,.archistyle-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.archistyle-border-brown,.archistyle-hover-border-brown:hover{border-color:#795548!important}
+.archistyle-border-cyan,.archistyle-hover-border-cyan:hover{border-color:#00bcd4!important}
+.archistyle-border-blue-grey,.archistyle-hover-border-blue-grey:hover,.archistyle-border-blue-gray,.archistyle-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.archistyle-border-green,.archistyle-hover-border-green:hover{border-color:#4CAF50!important}
+.archistyle-border-light-green,.archistyle-hover-border-light-green:hover{border-color:#8bc34a!important}
+.archistyle-border-indigo,.archistyle-hover-border-indigo:hover{border-color:#3f51b5!important}
+.archistyle-border-khaki,.archistyle-hover-border-khaki:hover{border-color:#f0e68c!important}
+.archistyle-border-lime,.archistyle-hover-border-lime:hover{border-color:#cddc39!important}
+.archistyle-border-orange,.archistyle-hover-border-orange:hover{border-color:#ff9800!important}
+.archistyle-border-deep-orange,.archistyle-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.archistyle-border-pink,.archistyle-hover-border-pink:hover{border-color:#e91e63!important}
+.archistyle-border-purple,.archistyle-hover-border-purple:hover{border-color:#9c27b0!important}
+.archistyle-border-deep-purple,.archistyle-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.archistyle-border-red,.archistyle-hover-border-red:hover{border-color:#f44336!important}
+.archistyle-border-sand,.archistyle-hover-border-sand:hover{border-color:#fdf5e6!important}
+.archistyle-border-teal,.archistyle-hover-border-teal:hover{border-color:#009688!important}
+.archistyle-border-yellow,.archistyle-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.archistyle-border-white,.archistyle-hover-border-white:hover{border-color:#fff!important}
+.archistyle-border-black,.archistyle-hover-border-black:hover{border-color:#000!important}
+.archistyle-border-grey,.archistyle-hover-border-grey:hover,.archistyle-border-gray,.archistyle-hover-border-gray:hover{border-color:#9e9e9e!important}
+.archistyle-border-light-grey,.archistyle-hover-border-light-grey:hover,.archistyle-border-light-gray,.archistyle-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.archistyle-border-dark-grey,.archistyle-hover-border-dark-grey:hover,.archistyle-border-dark-gray,.archistyle-hover-border-dark-gray:hover{border-color:#616161!important}
+.archistyle-border-pale-red,.archistyle-hover-border-pale-red:hover{border-color:#ffe7e7!important}.archistyle-border-pale-green,.archistyle-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.archistyle-border-pale-yellow,.archistyle-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.archistyle-border-pale-blue,.archistyle-hover-border-pale-blue:hover{border-color:#e7ffff!important}

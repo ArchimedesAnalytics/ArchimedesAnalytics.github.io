@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Automation Script</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #fff; /* No background color */
+        padding: 40px;
+    }
+    .notebook {
+        max-width: 800px;
+        margin: auto;
+        background: #fff; /* No background color */
+        padding: 40px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        font-size: 28px;
+        color: #333;
+        text-align: center;
+        border-bottom: 2px solid #333; /* Add a subtle line under the title for a modern touch */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        color: #666; /* Lighter text color for a modern look */
+        line-height: 1.6; /* Increase line height for better readability */
+        margin-bottom: 20px;
+    }
+    .lorem {
+        text-align: justify;
+    }
+</style>
+</head>
+<body>
+<div class="notebook">
+    <h3><a href="Dashboard.html">Return To Previous Screen</h3>
+    <h1>Sample Automation Script</h1>
+
+    <p class="lorem">Below is a sample of simple automation that can be employed for marketing or periodic report updates. 
+        The Python script prompts the user for the email's subject, body, recipient address, and sending interval. 
+        This script assumes you are using a Gmail account to send the email, so you'll need to enable "Less secure app access" in your 
+        Google account or use an App Password if Two-Factor Authentication is enabled. >
+    <p class="lorem"> Before running this script:
+Replace your_email@gmail.com with your Gmail address.
+Replace your_password with your Gmail password or an App Password if you have Two-Factor Authentication enabled.
+Make sure you have the necessary permissions set in your Gmail account to allow less secure apps to send emails (if not using an App Password).
+This script will continue running and send emails at the specified intervals until you stop it manually (e.g., by pressing CTRL+C in the terminal).
+Note: Using your real password in scripts is not recommended for security reasons. It's better to use OAuth2 for Gmail or other secure methods in production 
+code. Also, continuously sending emails at short intervals may violate your email provider's usage policies and could lead to your account being temporarily 
+blocked or flagged for spam, so use this script responsibly.
+
+
+
+    </p>
+    <p class="special">import smtplib
+    <p class="special">  from email.mime.text import MIMEText
+    <p class="special">  from email.mime.multipart import MIMEMultipart
+        <p class="special">import schedule
+            <p class="special"> import time
+                <p class="special"> 
+                    <p class="special">  # User inputs
+                        <p class="special"> subject = input("Enter the email subject: ")
+                            <p class="special"> body = input("Enter the email body: ")
+                                <p class="special"> recipient_email = input("Enter the recipient's email address: ")
+                                    <p class="special"> send_interval = int(input("Enter the sending interval in minutes: "))
+                                        <p class="special"> 
+                                            <p class="special"> # Email setup
+                                                <p class="special"> sender_email = "your_email@gmail.com"
+                                                    <p class="special"> sender_password = "your_password"
+                                                        <p class="special">
+                                                            <p class="special">def send_email():
+                                                                <p class="special">   # Create a multipart message
+                                                                    <p class="special">   msg = MIMEMultipart()
+                                                                        <p class="special">  msg['From'] = sender_email
+                                                                            <p class="special">  msg['To'] = recipient_email
+                                                                                <p class="special">  msg['Subject'] = subject
+                                                                                    <p class="special">
+                                                                                        <p class="special"> # Attach the email body
+                                                                                            <p class="special"> msg.attach(MIMEText(body, 'plain'))
+                                                                                                <p class="special">
+                                                                                                    <p class="special"># Server setup and send email
+                                                                                                        <p class="special"> try:
+                                                                                                            <p class="special">     server = smtplib.SMTP('smtp.gmail.com', 587)
+                                                                                                                <p class="special">    server.starttls()
+                                                                                                                    <p class="special">   server.login(sender_email, sender_password)
+                                                                                                                        <p class="special">   text = msg.as_string()
+                                                                                                                            <p class="special">  server.sendmail(sender_email, recipient_email, text)
+                                                                                                                                <p class="special">  server.quit()
+                                                                                                                                    <p class="special">  print(f"Email sent to {recipient_email}")
+                                                                                                                                        <p class="special"> except Exception as e:
+                                                                                                                                            <p class="special">  print(f"Failed to send email. Error: {e}")
+        
+                                                                                                                                                <p class="special"># Schedule the email to be sent at intervals
+                                                                                                                                                    <p class="special"> schedule.every(send_interval).minutes.do(send_email)
+                                                                                                                                                        <p class="special"> 
+                                                                                                                                                            <p class="special"> print(f"Starting to send emails every {send_interval} minute(s)...")
+                                                                                                                                                                <p class="special"> try:
+                                                                                                                                                                    <p class="special">  while True:
+                                                                                                                                                                        <p class="special"> schedule.run_pending()
+                                                                                                                                                                            <p class="special">  time.sleep(1)
+                                                                                                                                                                                <p class="special"> except KeyboardInterrupt:
+                                                                                                                                                                                    <p class="special">  print("Stopped the email scheduler.")
+</div>
+</body>
+</html>
