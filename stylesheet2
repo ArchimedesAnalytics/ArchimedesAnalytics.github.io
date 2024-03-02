@@ -1,0 +1,37 @@
+/* Styles for the entire body to ensure full height and width */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center text for all child elements */
+}
+
+/* Styles specifically for the #automation section */
+#automation {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center-align the child elements horizontally */
+  justify-content: center; /* Center-align the child elements vertically if there's enough space */
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Maximum width of the section */
+  margin: auto; /* Auto margins to center the section */
+}
+
+.gallery {
+  width: 100%; /* Ensure the gallery takes the full width of the #automation container */
+  display: flex;
+  justify-content: center; /* Center the contents of the gallery */
+  flex-wrap: wrap; /* Allow items to wrap in the gallery */
+}
+
+.gallery a {
+  margin: 10px; /* Space out the links/images */
+  display: inline-block; /* Treat links as inline blocks to allow for margin adjustments */
+}
+
+.gallery img {
+  max-width: 100%; /* Ensure images are responsive and fit within their containers */
+  height: auto; /* Maintain aspect ratio */
+}
